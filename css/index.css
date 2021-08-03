@@ -1,0 +1,281 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+html{
+ box-sizing: border-box;
+ -webkit-box-sizing: border-box;
+ -moz-box-sizing: border-box;
+
+}
+
+body{
+    background-color: white;
+    padding:10px;
+    font-family: 'Inter', sans-serif;
+}
+
+section{
+    width: 650px;
+    height:700px;
+    margin:auto;
+    padding:20px;
+}
+
+section>p{
+    line-height: 1.5;
+    font-size:0.9rem;
+    font-weight: 400;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    margin:auto;
+}
+
+header>img{
+    width: 45px;
+    height: 45px;
+    position: relative;
+    bottom: 15px
+}
+
+header a{
+    text-decoration: none;
+    margin: 5px;
+}
+
+input{
+    border:none;
+    outline: none;
+}
+
+a[href="#follow"]{
+    font-size: 0.85rem;
+    font-weight: 600;
+    background: none;
+    border: 1px solid #d9dddc;
+    border-radius: 7px;
+    padding: 15px 25px;
+    color: gray;
+}
+
+a[href="#contact"]{
+    border:none;
+    font-size: 0.85rem;
+    font-weight: 600;
+    background-color: #9944da;
+    border-radius: 7px;
+    padding: 15px 70px;
+    color: white;
+}
+
+h1{
+    font-weight:800;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+p{
+    color:#7a7979;
+}
+
+span{
+    color:#2c2727;
+    font-weight: bold;
+}
+
+img{
+    border-radius: 100%;
+}
+
+ul{
+    list-style: none;
+    display:flex;
+    margin-bottom:10px;
+}
+
+button{
+    box-sizing: content-box;
+    background: none;
+    border-radius: 50px;
+    border: 1px solid lightgray;
+    margin:5px;
+    padding: 12px 20px;
+    font-weight:600 ;
+    color:#464545;
+    font-size: 0.90rem;
+}
+
+button i{
+    margin-right: 10px;
+    font-weight: 400;
+}
+
+footer{
+    padding:50px 0;
+}
+
+footer i{
+    margin:0 55px 0 0;
+}
+
+#search{
+    color:darkgray;
+}
+
+.search-bar{
+    border:1px solid rgb(216, 214, 214);
+    padding: 15px;
+    position: relative;
+    bottom: 15px;
+    border-radius: 50px;
+    width: 250px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile img{
+    margin-bottom: 20px;
+}
+
+.avatar{
+    width: 41px;
+    position:absolute;
+    bottom:73px;
+    left:95px;
+}
+
+.profile-pic{
+    background-color: rgb(243, 242, 242);
+    width:130px;
+}
+
+.profile{
+    padding-top:50px;
+    position:relative;
+}
+
+.badges{
+    display:flex;
+    flex-wrap: wrap;
+    width:500px;
+    margin:25px 0 25px 0;
+}
+
+/* badges-items */
+.fa-windows{
+    color:dodgerblue;
+}
+
+.fa-git-square{
+    color:rgb(235, 53, 36);
+}
+
+.fa-pencil-ruler{
+    color:rgb(250, 70, 190);
+}
+
+.fa-file-code{
+    color:#ef2525;
+    --fa-primary-opacity:1;
+    --fa-secondary-opacity:0.6;
+}
+
+.fa-stack-overflow{
+    color:rgb(250, 106, 40);
+}
+
+.fa-briefcase{
+    color:dodgerblue;
+}
+
+.fa-search{
+    color:#ff46a2;
+}
+
+.fa-thumbs-up{
+    color:rgb(0, 132, 255);
+}
+
+.fa-head-side-brain{
+    color:rgb(250, 106, 40);
+}
+
+.number{
+    color:gray;
+}
+
+button:nth-of-type(1):hover{
+    background-color: dodgerblue;
+}
+
+button:nth-of-type(2):hover{
+    background-color: rgb(235, 53, 36);
+}
+
+button:nth-of-type(3):hover{
+    background-color: rgb(250, 70, 190);
+}
+
+button:nth-of-type(4):hover{
+    background-color: rgb(250, 106, 40);
+}
+
+button:nth-of-type(5):hover{
+    background-color: dodgerblue;
+}
+
+button:nth-of-type(6):hover{
+    background-color: #ff46a2;
+}
+
+button:nth-of-type(7):hover{
+    background-color:dodgerblue;
+}
+
+button:nth-of-type(8):hover{
+    background-color:rgb(250, 106, 40);
+}
+
+button:nth-of-type(9):hover{
+    background-color:tomato;
+}
+button:nth-of-type(10):hover{
+    background-color:gray;
+    color:white;
+}
+
+button:nth-of-type(11):hover{
+    background-color:gray;
+    color:white;
+}
+
+button:hover a, a:hover i{
+    color:white;
+    transition: 0.5;
+}
+
+@media(min-width:756px){
+    button:nth-of-type(5){
+        display:none;
+    }
+    button:nth-of-type(6){
+        display:none;
+    }
+    button:nth-of-type(7){
+        display:none;
+    }
+    button:nth-of-type(8){
+        display:none;
+    }
+    button:nth-of-type(10){
+        display:none;
+    }
+}
+
+

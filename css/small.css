@@ -1,0 +1,64 @@
+@media(max-width:756px){
+    body{
+        padding:20px;
+    }
+    section{
+        width:500px;
+    }
+
+    section>p{
+        line-height: 1.5;
+        font-size:1rem;
+    }
+
+    header{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    width: 520px;
+    margin:auto;
+    }
+
+    input{
+        display: none;
+    }
+
+    .search-bar{
+        border:none;
+    }
+
+    .profile{
+        padding-top: 20px;
+    }
+
+    #search{
+        font-size: x-large;
+        position:absolute;
+        right:25px;
+        top:5px;
+    }
+
+    a[href="#follow"]{
+        border:1px solid #d9dddc;
+        border-radius: 8px;
+        padding:18px 34px;
+    }
+    
+    a[href="#contact"]{
+        border-radius: 8px;
+        padding:18px 65px;
+    }
+
+    header>img{
+        width: 50px;
+        height:50px;
+    }
+
+    .badges{
+        width:500px;
+    }
+
+    button:nth-of-type(11){
+        display:none;
+    }
+}
